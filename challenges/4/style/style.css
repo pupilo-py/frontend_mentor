@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --font0: "Outfit", sans-serif;
+    --font1: "Young Serif", serif;
+    --cor0: hsl(0, 0%, 100%);
+    --cor1: hsl(30, 54%, 90%);
+    --cor2: hsl(30, 18%, 87%);
+    --cor3: hsl(30, 10%, 34%);
+    --cor4: hsl(24, 5%, 18%);
+    --cor5: hsl(14, 45%, 36%);
+    --cor6: hsl(332, 51%, 32%);
+    --cor7: hsl(330, 100%, 98%);
+}
