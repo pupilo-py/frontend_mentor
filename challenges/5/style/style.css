@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --font-serif: "Fraunces", serif;
+    --font-sans: "Montserrat", sans-serif;
+
+    --font-size-p-0: 14px;
+
+    --font-serif-weight-0: 700;
+    --font-sans-weight-0: 500;
+    --font-sans-weight-1: 700;
+    
+    --color-light-0: hsl(0, 0%, 100%);
+    --color-light-1: hsl(30, 38%, 92%);
+    --color-dark-0: hsl(228, 12%, 48%);
+    --color-dark-1: hsl(212, 21%, 14%);
+    --color-green-0: hsl(158, 36%, 37%);
+    --color-green-1: hsl(158, 42%, 18%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light-0);
+    width: 90dvw;
+    max-width: 320px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .text {
+    margin: 20px 24px;
+}
+
+.card .text em {
+    font-style: normal;
+}
+
+.card .text h1 {
+    font-family: var(--font-serif);
+    font-weight: var(--font-serif-weight-0);
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.card .text p {
+    color: var(--color-dark-1);
+    font-size: var(--font-size-p-0);
+    margin: 0 0 20px;
+}
+
+.card .text .price {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+}
+
+.card .text .price span strong {
+    font-family: var(--font-serif);
+    font-size: 1.8em;
+    color: var(--color-green-0);
+}
+
+.card .text .price span del {
+    font-size: var(--font-size-p-0);
+    margin: 0 0 0 12px;
+}
+
+.card .text button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: var(--color-green-0);
+    color: var(--color-light-0);
+    font-weight: var(--font-sans-weight-1);
+    border: none;
+}
+
+.card .text button:hover {
+    background-color: var(--color-green-1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-light-1);
+    font-family: var(--font-sans);
+}
+
+@media (min-width: 601px) {
+    .card {
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .card img {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+    }
+}
