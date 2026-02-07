@@ -50,7 +50,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-color: var(--cor1);
 }

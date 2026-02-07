@@ -83,6 +83,5 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--cor3);
-    width: 100vw;
-    height: 100vh;
+    height: 100dvh;
 }
