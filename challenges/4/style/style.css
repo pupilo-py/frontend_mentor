@@ -19,3 +19,83 @@
     --cor6: hsl(332, 51%, 32%);
     --cor7: hsl(330, 100%, 98%);
 }
+
+.receita {
+  font-family: var(--font0);
+  font-weight: 300;
+  background-color: var(--cor0);
+  width: 90vw;
+  max-width: 768px;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.receita img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.receita h1, h2 {
+  font-family: var(--font1);
+  font-weight: 400;
+  color: var(--cor5);
+  margin: 30px 0 16px;
+}
+
+.receita h3 {
+  font-family: var(--font0);
+  font-weight: 400;
+  color: var(--cor6);
+}
+
+.receita p {
+  margin: 0 0 16px;
+}
+
+.receita hr {
+  margin: 30px 0;
+}
+
+.receita aside {
+  background-color: var(--cor7);
+  padding: 30px;
+}
+
+.receita li {
+  line-height: 32px;
+  text-indent: 16px;
+  list-style-position: inside;
+}
+
+.receita li::marker {
+  color: var(--cor5);
+  font-weight: 500;
+}
+
+.receita li strong {
+  font-size: 17px;
+}
+
+.receita .nutricao {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.receita .nutricao th {
+  font-weight: 400;
+  color: var(--cor3);
+  border-bottom: 1px solid var(--cor2);
+}
+
+.receita .nutricao td {
+  font-weight: 500;
+  color: var(--cor5);
+  border-bottom: 1px solid var(--cor2);
+}
+
+body {
+  background-color: var(--cor1);
+}
