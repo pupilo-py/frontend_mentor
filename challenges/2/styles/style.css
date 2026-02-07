@@ -79,8 +79,9 @@
 }
 
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor3);
     height: 100dvh;
 }
